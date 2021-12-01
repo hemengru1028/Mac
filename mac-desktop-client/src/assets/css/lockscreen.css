@@ -1,0 +1,162 @@
+.backimg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.entrance {
+  /* background-color: pink; */
+
+  width: 40%;
+  height: 100%;
+  margin: 100px auto 20px auto;
+  color: #fff;
+}
+
+.entrance .user {
+  height: 270px;
+}
+.entrance .user .header {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+}
+.entrance .user .header img {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.entrance .user .nickname {
+  margin: 10px auto;
+  text-align: center;
+  /* color: #fff; */
+}
+/* .entrance .user .nickname input {
+  color: #fff;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #938d8e;
+  opacity: 0.8;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+} */
+.entrance .user .nickname h3 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.entrance .user .password {
+  width: 200px;
+  /* height: 35px; */
+  margin: 14px auto 10px auto;
+  opacity: 0.8;
+  position: relative;
+}
+.entrance .user .password input {
+  box-sizing: border-box;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  outline: none;
+  background-color: #938d8e;
+
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.entrance .user .password img {
+  width: 25px;
+  height: 25px;
+  /* background-color: #fff; */
+  position: absolute;
+  top: 5px;
+  right: 6px;
+}
+
+.entrance .user .text {
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.entrance .user .text h5 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.operation {
+  width: 360px;
+  /* height: 100px; */
+  margin: 40px auto 0px auto;
+}
+
+.operation .roundbox {
+  width: 120px;
+  height: 100px;
+  display: inline-block;
+  /* background-color: #e5e7eb; */
+  position: relative;
+  text-align: center;
+}
+
+.operation .roundbox .items {
+  width: 50px;
+  height: 50px;
+  background-color: #374151;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -26px;
+  border-radius: 50%;
+}
+
+.operation .roundbox .items img {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18px;
+  margin-left: -18px;
+}
+
+.operation .roundbox .sleep img {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -17px;
+  margin-left: -17px;
+
+  z-index: 100;
+}
+
+.operation .roundbox span {
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  font-size: 20px;
+}
+
+/* 登录注册 */
+.entrance .register {
+  text-align: center;
+}
+.entrance .register a {
+  color: #fff;
+}
